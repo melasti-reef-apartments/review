@@ -3,8 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Честный отзыв о Melasti Reef Apartment под управлением Suite Stay (Ghinna Suite Stay) в Унгасане, Бали. Протечка с потолка 19 дней, нет горячей воды, нет интернета, штукатурка падает — менеджмент игнорирует всё.">
 <title>Отзыв — Melasti Reef Apartment, Suite Stay</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
@@ -43,8 +45,8 @@
     --border: #2a2a2a;
     --text: #e8e4df;
     --text-muted: #8a8580;
-    --accent: #c43b3b;
-    --accent-glow: #c43b3b33;
+    --accent: #e05050;
+    --accent-glow: #e0505033;
     --warning: #d4a843;
     --warning-muted: #d4a84322;
     --serif: 'Cormorant Garamond', Georgia, serif;
@@ -285,14 +287,16 @@
     display: inline-block;
     font-size: 11px; font-weight: 700;
     letter-spacing: 1.5px; text-transform: uppercase;
-    color: var(--accent); background: var(--accent-glow);
+    color: var(--text); background: var(--accent-glow);
     padding: 3px 10px; border-radius: 4px;
     margin-bottom: 10px;
   }
-  .problem-card h4 {
+  .problem-card h3 {
     font-family: var(--serif);
     font-size: 22px; font-weight: 600;
-    margin-bottom: 8px;
+    margin: 0 0 8px;
+    border-left: none;
+    padding-left: 0;
   }
   .problem-card p {
     color: var(--text-muted);
@@ -418,7 +422,7 @@
   /* ===== VERDICT ===== */
   .verdict {
     background: linear-gradient(135deg, var(--accent-glow), transparent);
-    border: 1px solid #c43b3b44;
+    border: 1px solid #e0505044;
     border-radius: 12px;
     padding: 40px 36px;
     margin: 32px 0;
@@ -475,8 +479,9 @@
 </head>
 <body>
 
-<div class="noise"></div>
+<div class="noise" aria-hidden="true"></div>
 
+<main>
 <div class="container">
 
   <!-- ===== HERO ===== -->
@@ -492,11 +497,11 @@
       <span>Январь — Февраль 2026</span>
     </div>
     <figure class="hero-photo animate delay-3">
-      <img src="files/melasti_reef_apartments.jpg" alt="Двор апартаментов Melasti Reef с бассейном">
+      <img src="files/melasti_reef_apartments.jpg" alt="Двор апартаментов Melasti Reef с бассейном" width="408" height="272" fetchpriority="high">
       <figcaption>Melasti Reef Apartment — место, о котором этот отзыв</figcaption>
     </figure>
     <div class="rating-bar animate delay-4">
-      <div class="stars">★☆☆☆☆</div>
+      <div class="stars" aria-hidden="true">★☆☆☆☆</div>
       <div class="score">1/5</div>
       <div class="label">Худший опыт аренды,<br>который можно себе представить.</div>
     </div>
@@ -504,7 +509,7 @@
 
   <!-- ===== 1. ВВЕДЕНИЕ ===== -->
   <section>
-    <div class="section-number">01</div>
+    <div class="section-number" aria-hidden="true">01</div>
     <h2>Введение</h2>
     <p class="lead">
       Мы арендовали апартамент 4A в комплексе Melasti Reef (Ungasan, Bali) через агентство Suite Stay на один месяц: с 17 января по 17 февраля 2026 года. Стоимость — 18 000 000 IDR/мес. + залог 5 000 000 IDR.
@@ -519,7 +524,7 @@
 
   <!-- ===== 2. ХРОНИКА СОБЫТИЙ ===== -->
   <section>
-    <div class="section-number">02</div>
+    <div class="section-number" aria-hidden="true">02</div>
     <h2>Хроника событий</h2>
 
     <p>
@@ -532,7 +537,7 @@
         <div class="timeline-date">18 января (День 2)</div>
         <div class="problem-card">
           <div class="tag">Новая проблема</div>
-          <h4>Отсутствие горячей воды и нормального напора в душе</h4>
+          <h3>Отсутствие горячей воды и нормального напора в душе</h3>
           <p>
             С первого дня проживания вода в душе шла только 2 минуты, после чего напор исчезал и горячая вода переставала поступать. Нормально принять душ невозможно. Сообщаем в чат. Ответ: «сообщим мастеру».
           </p>
@@ -549,7 +554,7 @@
         <p><strong>Повторно отправляем видео проблемы с водой в душе.</strong> Нас просто игнорируют.</p>
         <div class="problem-card">
           <div class="tag">Новая проблема</div>
-          <h4>Отвратительное качество уборки</h4>
+          <h3>Отвратительное качество уборки</h3>
           <p>
             После уборки в квартире появился сильный затхлый запах из-за старых тряпок. Управляющие заявляют, что запах якобы от наших вещей. Уборщик приходил формально, но качество работы — нулевое: штукатурка за дверью ванной лежала со времён стройки и пролежала там весь месяц. Постельное бельё за месяц поменяли один раз — и то после личной просьбы.
           </p>
@@ -560,7 +565,7 @@
         <div class="timeline-date">23 января (День 7)</div>
         <div class="problem-card">
           <div class="tag">Новая проблема</div>
-          <h4>Отключение воды без предупреждения</h4>
+          <h3>Отключение воды без предупреждения</h3>
           <p>
             Вода отключена на несколько часов. Нас не предупредили. Позже сообщили, что проводились «плановые работы».
           </p>
@@ -571,14 +576,14 @@
         <div class="timeline-date">24 января (День 8)</div>
         <div class="problem-card">
           <div class="tag">Новая проблема</div>
-          <h4>Протечка с потолка в ванной с резким запахом мочи</h4>
+          <h3>Протечка с потолка в ванной с резким запахом мочи</h3>
           <p>
             С потолка ванной начала капать вода с резким запахом мочи. Протечка попадала прямо на унитаз и на пол, делая пользование туалетом невозможным. Вода капала рядом с электропроводкой, создавая опасность поражения током.
           </p>
         </div>
         <div class="problem-card">
           <div class="tag">Новая проблема</div>
-          <h4>Отсутствие интернета</h4>
+          <h3>Отсутствие интернета</h3>
           <p>
             Интернет перестал работать. Сообщаем немедленно, прикладываем фото роутера. Для удалённых работников это критично.
           </p>
@@ -600,7 +605,7 @@
         <p><strong>Интернет-мастер наконец приходит</strong> — спустя 6+ дней без интернета.</p>
         <div class="problem-card">
           <div class="tag">Новая проблема</div>
-          <h4>Падение штукатурки с потолка</h4>
+          <h3>Падение штукатурки с потолка</h3>
           <p>
             Мастер заделал потолок — заплатка отвалилась через несколько часов. Тяжёлые куски штукатурки падали прямо на нас. На просьбу срочно вернуть рабочих ответили, что «у них расписание занято» и они придут завтра. Штукатурка падает на голову, а управляющая компания считает, что это может подождать.
           </p>
@@ -692,38 +697,38 @@
 
   <!-- ===== 3. СКРИНШОТЫ ===== -->
   <section>
-    <div class="section-number">03</div>
+    <div class="section-number" aria-hidden="true">03</div>
     <h2>Скриншоты переписки</h2>
 
     <p>Ниже — скриншоты ключевых моментов переписки, подтверждающие систематическое игнорирование наших обращений.</p>
 
     <div class="media-grid">
       <div class="media-item">
-        <img src="files/screenshots/01-first-complaints-water.png" alt="Первые жалобы на воду 18–19 января" loading="lazy">
+        <img src="files/screenshots/01-first-complaints-water.png" alt="Первые жалобы на воду 18–19 января" loading="lazy" width="1170" height="1230">
         <div class="media-caption">18–19 янв. Первые жалобы на слабый напор воды. Мастер пришёл и заявил: «проблем нет».</div>
       </div>
       <div class="media-item">
-        <img src="files/screenshots/02-ceiling-leak-report.png" alt="Сообщение о протечке с потолка 24 января" loading="lazy">
+        <img src="files/screenshots/02-ceiling-leak-report.png" alt="Сообщение о протечке с потолка 24 января" loading="lazy" width="1172" height="1104">
         <div class="media-caption">24 янв. Фото протечки с потолка отправлено в чат. Nia: «сообщим мастеру».</div>
       </div>
       <div class="media-item">
-        <img src="files/screenshots/03-move-out-request.png" alt="Запрос на выселение и возврат 2–3 февраля" loading="lazy">
+        <img src="files/screenshots/03-move-out-request.png" alt="Запрос на выселение и возврат 2–3 февраля" loading="lazy" width="1174" height="1708">
         <div class="media-caption">2–3 фев. Запрос на выселение и возврат денег. Aprille шлёт шаблонные извинения.</div>
       </div>
       <div class="media-item">
-        <img src="files/screenshots/04-refund-calculation.png" alt="Расчёт возврата 7 800 000 IDR" loading="lazy">
+        <img src="files/screenshots/04-refund-calculation.png" alt="Расчёт возврата 7 800 000 IDR" loading="lazy" width="1168" height="1568">
         <div class="media-caption">3 фев. «WE WANT MOVE OUT». Расчёт возврата: 7 800 000 IDR. Запрос полностью проигнорирован.</div>
       </div>
       <div class="media-item">
-        <img src="files/screenshots/05-absolute-ignoring.png" alt="Абсолютное игнорирование запроса на возврат" loading="lazy">
+        <img src="files/screenshots/05-absolute-ignoring.png" alt="Абсолютное игнорирование запроса на возврат" loading="lazy" width="1168" height="1404">
         <div class="media-caption">3–4 фев. «Absolute ignoring» — запрос на возврат проигнорирован. Aprille: «we're still discussing».</div>
       </div>
       <div class="media-item">
-        <img src="files/screenshots/06-no-answer-all-day.png" alt="Нет ответа весь день, многократные пинги" loading="lazy">
+        <img src="files/screenshots/06-no-answer-all-day.png" alt="Нет ответа весь день, многократные пинги" loading="lazy" width="1176" height="1786">
         <div class="media-caption">5–6 фев. Многократные «I'm waiting» с тегами всех 5 сотрудников. Ни одного ответа за весь день.</div>
       </div>
       <div class="media-item">
-        <img src="files/screenshots/07-deposit-return-threat.png" alt="Требование вернуть залог после выезда" loading="lazy">
+        <img src="files/screenshots/07-deposit-return-threat.png" alt="Требование вернуть залог после выезда" loading="lazy" width="1172" height="1794">
         <div class="media-caption">Март. Требование вернуть залог с угрозой публикации отзывов. Intan: «Apologies for the delay».</div>
       </div>
     </div>
@@ -731,42 +736,42 @@
 
   <!-- ===== 4. ФОТОГРАФИИ ===== -->
   <section>
-    <div class="section-number">04</div>
+    <div class="section-number" aria-hidden="true">04</div>
     <h2>Фотографии и видео неисправностей</h2>
 
     <p>Фото и видео, зафиксировавшие состояние апартамента.</p>
 
     <div class="media-grid">
       <div class="media-item">
-        <img src="files/00000247-PHOTO-2026-01-24-16-46-22.jpg" alt="Капли воды у светильника на потолке" loading="lazy">
+        <img src="files/00000247-PHOTO-2026-01-24-16-46-22.jpg" alt="Капли воды у светильника на потолке" loading="lazy" width="900" height="1600">
         <div class="media-caption">24 янв. Вода капает рядом с электрическим светильником на потолке ванной.</div>
       </div>
       <div class="media-item">
-        <img src="files/00000248-PHOTO-2026-01-24-16-46-22.jpg" alt="Капли воды на унитазе от протечки с потолка" loading="lazy">
+        <img src="files/00000248-PHOTO-2026-01-24-16-46-22.jpg" alt="Капли воды на унитазе от протечки с потолка" loading="lazy" width="900" height="1600">
         <div class="media-caption">24 янв. Капли воды на крышке унитаза — протечка с потолка попадает прямо на сантехнику.</div>
       </div>
       <div class="media-item">
-        <img src="files/00000238-PHOTO-2026-01-24-09-40-14.jpg" alt="Speedtest показывает 0.20 Mbps скорость скачивания" loading="lazy">
+        <img src="files/00000238-PHOTO-2026-01-24-09-40-14.jpg" alt="Speedtest показывает 0.20 Mbps скорость скачивания" loading="lazy" width="1280" height="495">
         <div class="media-caption">24 янв. Speedtest: скорость загрузки 0.20 Mbps. Интернет фактически не работает.</div>
       </div>
       <div class="media-item">
-        <img src="files/00000290-PHOTO-2026-01-30-13-15-22.jpg" alt="Куски штукатурки на полу ванной" loading="lazy">
+        <img src="files/00000290-PHOTO-2026-01-30-13-15-22.jpg" alt="Куски штукатурки на полу ванной" loading="lazy" width="720" height="1280">
         <div class="media-caption">30 янв. Куски штукатурки на полу — заплатка отвалилась через часы после ремонта.</div>
       </div>
       <div class="media-item">
-        <img src="files/00000291-PHOTO-2026-01-30-13-15-23.jpg" alt="Дыра в потолке ванной после обрушения штукатурки" loading="lazy">
+        <img src="files/00000291-PHOTO-2026-01-30-13-15-23.jpg" alt="Дыра в потолке ванной после обрушения штукатурки" loading="lazy" width="720" height="1280">
         <div class="media-caption">30 янв. Дыра в потолке ванной — штукатурка обрушилась, видны трубы и проводка.</div>
       </div>
       <div class="media-item">
-        <img src="files/00000312-PHOTO-2026-02-01-11-56-22.jpg" alt="Мокрый пол ванной от протечки" loading="lazy">
+        <img src="files/00000312-PHOTO-2026-02-01-11-56-22.jpg" alt="Мокрый пол ванной от протечки" loading="lazy" width="900" height="1600">
         <div class="media-caption">1 фев. Вода на полу ванной из-за продолжающейся протечки с потолка.</div>
       </div>
       <div class="media-item">
-        <img src="files/00000338-PHOTO-2026-02-03-08-49-47.jpg" alt="Затопленный пол вокруг унитаза" loading="lazy">
+        <img src="files/00000338-PHOTO-2026-02-03-08-49-47.jpg" alt="Затопленный пол вокруг унитаза" loading="lazy" width="720" height="1280">
         <div class="media-caption">3 фев. Лужа вокруг унитаза — протечка не устранена после нескольких визитов рабочих.</div>
       </div>
       <div class="media-item">
-        <img src="files/00000339-PHOTO-2026-02-03-08-49-48.jpg" alt="Увеличившаяся дыра в потолке с видимыми трубами" loading="lazy">
+        <img src="files/00000339-PHOTO-2026-02-03-08-49-48.jpg" alt="Увеличившаяся дыра в потолке с видимыми трубами" loading="lazy" width="720" height="1280">
         <div class="media-caption">3 фев. Дыра в потолке стала ещё больше. Видны ржавые трубы и электрические кабели.</div>
       </div>
     </div>
@@ -774,15 +779,15 @@
 
   <!-- ===== 5. ИТОГОВАЯ ТАБЛИЦА ===== -->
   <section>
-    <div class="section-number">05</div>
+    <div class="section-number" aria-hidden="true">05</div>
     <h2>Сводка проблем</h2>
 
     <table class="summary-table">
       <thead>
         <tr>
-          <th>Проблема</th>
-          <th>Длительность</th>
-          <th>Итог</th>
+          <th scope="col">Проблема</th>
+          <th scope="col">Длительность</th>
+          <th scope="col">Итог</th>
         </tr>
       </thead>
       <tbody>
@@ -827,7 +832,7 @@
 
   <!-- ===== 6. ЗАКЛЮЧЕНИЕ ===== -->
   <section>
-    <div class="section-number">06</div>
+    <div class="section-number" aria-hidden="true">06</div>
     <h2>Заключение</h2>
 
     <p class="lead">
@@ -858,6 +863,7 @@
     Все факты в данном отзыве подкреплены перепиской в WhatsApp и фотографиями.
   </div>
 </footer>
+</main>
 
 </body>
 </html>
