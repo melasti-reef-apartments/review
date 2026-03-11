@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review — Melasti Reef Apartment 4A, Suite Stay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "name": "Terrible place — avoid at all costs",
+  "itemReviewed": {
+    "@type": "LodgingBusiness",
+    "name": "Melasti Reef Apartment — Suite Stay (Ghinna Suite Stay)",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ungasan",
+      "addressRegion": "Bali",
+      "addressCountry": "ID"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "1",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Tenant"
+  },
+  "datePublished": "2026-03-11",
+  "reviewBody": "Worst rental experience ever. Ceiling leak for 19 days, no hot water for 2 weeks, no internet for 6+ days, plaster falling from ceiling. Management completely ignores all requests. Deposit was returned only after we threatened to publish reviews."
+}
+</script>
+<style>
+  :root {
+    --bg: #0e0e0e;
+    --surface: #161616;
+    --surface-raised: #1e1e1e;
+    --border: #2a2a2a;
+    --text: #e8e4df;
+    --text-muted: #8a8580;
+    --accent: #c43b3b;
+    --accent-glow: #c43b3b33;
+    --warning: #d4a843;
+    --warning-muted: #d4a84322;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --sans: 'Source Sans 3', system-ui, sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  .noise {
+    position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .container {
+    position: relative; z-index: 1;
+    max-width: 820px; margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    padding: 100px 0 60px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 200vw; height: 100%;
+    background: radial-gradient(ellipse 60% 80% at 50% 0%, var(--accent-glow), transparent);
+    pointer-events: none;
+  }
+  .hero-label {
+    font-family: var(--sans);
+    font-size: 12px; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--accent); font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: var(--serif);
+    font-size: clamp(36px, 6vw, 58px);
+    font-weight: 700; line-height: 1.15;
+    color: var(--text);
+    margin-bottom: 24px;
+  }
+  .hero h1 em {
+    font-style: italic; color: var(--accent);
+  }
+  .hero-meta {
+    font-size: 15px; color: var(--text-muted);
+    display: flex; flex-wrap: wrap; gap: 20px;
+  }
+  .hero-meta span::before {
+    content: ''; display: inline-block;
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent); margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  /* ===== RATING ===== */
+  .rating-bar {
+    display: flex; align-items: center; gap: 12px;
+    margin-top: 32px;
+    padding: 16px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .rating-bar .stars {
+    font-size: 24px; color: var(--accent);
+    letter-spacing: 2px;
+  }
+  .rating-bar .score {
+    font-family: var(--serif);
+    font-size: 32px; font-weight: 700;
+    color: var(--accent);
+  }
+  .rating-bar .label {
+    font-size: 14px; color: var(--text-muted);
+    border-left: 1px solid var(--border);
+    padding-left: 12px;
+  }
+
+  /* ===== SECTIONS ===== */
+  section {
+    padding: 60px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  section:last-of-type { border-bottom: none; }
+
+  .section-number {
+    font-family: var(--serif);
+    font-size: 72px; font-weight: 700;
+    color: var(--surface-raised);
+    line-height: 1; margin-bottom: -10px;
+    position: relative;
+  }
+  .section-number::after {
+    content: '';
+    position: absolute; bottom: 8px; left: 0;
+    width: 40px; height: 3px;
+    background: var(--accent);
+  }
+
+  h2 {
+    font-family: var(--serif);
+    font-size: 32px; font-weight: 600;
+    margin: 16px 0 24px;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-family: var(--sans);
+    font-size: 18px; font-weight: 600;
+    margin: 32px 0 12px;
+    color: var(--text);
+    padding-left: 16px;
+    border-left: 3px solid var(--accent);
+  }
+
+  p { margin-bottom: 16px; }
+
+  .lead {
+    font-size: 20px;
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* ===== TIMELINE ===== */
+  .timeline {
+    position: relative;
+    padding-left: 32px;
+    margin: 24px 0;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute; left: 7px; top: 0; bottom: 0;
+    width: 2px; background: var(--border);
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 28px;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute; left: -32px; top: 8px;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 2px solid var(--accent);
+  }
+  .timeline-item.resolved::before {
+    background: var(--accent);
+  }
+  .timeline-date {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .timeline-item p {
+    color: var(--text-muted);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .timeline-item p strong {
+    color: var(--text);
+  }
+
+  /* ===== TIMELINE PROBLEM (embedded card) ===== */
+  .timeline-item.timeline-problem {
+    margin-bottom: 32px;
+  }
+  .timeline-item.timeline-problem::before {
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-glow);
+  }
+  .timeline-problem .problem-card {
+    margin: 8px 0 0;
+    border-left-width: 3px;
+  }
+  .timeline-problem .problem-card .tag {
+    font-size: 10px;
+  }
+
+  /* ===== PROBLEM CARDS ===== */
+  .problem-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 24px 28px;
+    margin: 20px 0;
+    transition: border-color 0.2s;
+  }
+  .problem-card:hover {
+    border-left-color: var(--warning);
+  }
+  .problem-card .tag {
+    display: inline-block;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--accent); background: var(--accent-glow);
+    padding: 3px 10px; border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .problem-card h4 {
+    font-family: var(--serif);
+    font-size: 22px; font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .problem-card p {
+    color: var(--text-muted);
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  /* ===== QUOTE BLOCK ===== */
+  .quote-block {
+    background: var(--surface);
+    border-left: 4px solid var(--warning);
+    padding: 20px 24px;
+    margin: 20px 0;
+    border-radius: 0 8px 8px 0;
+  }
+  .quote-block p {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 18px;
+    color: var(--text);
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .quote-block .attribution {
+    font-family: var(--sans);
+    font-style: normal;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  /* ===== MEDIA GRID ===== */
+  .media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+  }
+  .media-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: border-color 0.3s, transform 0.3s;
+  }
+  .media-item:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+  .media-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .media-caption {
+    padding: 12px 16px;
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    border-top: 1px solid var(--border);
+  }
+  .media-placeholder {
+    background: var(--surface);
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+    transition: border-color 0.2s;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .media-placeholder:hover {
+    border-color: var(--accent);
+  }
+  .media-placeholder .icon {
+    font-size: 32px;
+    opacity: 0.5;
+  }
+  .media-placeholder .label {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 13px;
+  }
+
+  /* ===== SUMMARY TABLE ===== */
+  .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 15px;
+  }
+  .summary-table th,
+  .summary-table td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .summary-table th {
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .summary-table td:first-child {
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .summary-table .status-bad {
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .summary-table .status-warn {
+    color: var(--warning);
+    font-weight: 600;
+  }
+
+  /* ===== VERDICT ===== */
+  .verdict {
+    background: linear-gradient(135deg, var(--accent-glow), transparent);
+    border: 1px solid #c43b3b44;
+    border-radius: 12px;
+    padding: 40px 36px;
+    margin: 32px 0;
+    text-align: center;
+  }
+  .verdict h3 {
+    border: none;
+    padding: 0;
+    font-family: var(--serif);
+    font-size: 28px;
+    text-align: center;
+    color: var(--text);
+    margin: 0 0 16px;
+  }
+  .verdict p {
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    padding: 40px 0;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 13px;
+  }
+
+  /* ===== ANIMATIONS ===== */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate {
+    animation: fadeUp 0.6s ease forwards;
+    opacity: 0;
+  }
+  .delay-1 { animation-delay: 0.1s; }
+  .delay-2 { animation-delay: 0.2s; }
+  .delay-3 { animation-delay: 0.3s; }
+  .delay-4 { animation-delay: 0.4s; }
+
+  @media (max-width: 600px) {
+    .hero { padding: 60px 0 40px; }
+    section { padding: 40px 0; }
+    .hero-meta { flex-direction: column; gap: 8px; }
+    .problem-card { padding: 18px 20px; }
+    .media-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="noise"></div>
+
+<div class="container">
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <div class="hero-label animate">Rental review</div>
+    <h1 class="animate delay-1">
+      Melasti Reef Apartment —<br>
+      <em>terrible place. Avoid at all costs.</em>
+    </h1>
+    <div class="hero-meta animate delay-2">
+      <span>Suite Stay (Ghinna Suite Stay)</span>
+      <span>Ungasan, Bali</span>
+      <span>January — February 2026</span>
+    </div>
+    <div class="rating-bar animate delay-3">
+      <div class="stars">★☆☆☆☆</div>
+      <div class="score">1/5</div>
+      <div class="label">The worst rental experience<br>you can imagine.</div>
+    </div>
+  </header>
+
+  <!-- ===== 1. INTRODUCTION ===== -->
+  <section>
+    <div class="section-number">01</div>
+    <h2>Introduction</h2>
+    <p class="lead">
+      We rented apartment 4A at Melasti Reef (Ungasan, Bali) through the Suite Stay agency for one month: from January 17 to February 17, 2026. The price was 18,000,000 IDR/month + a 5,000,000 IDR security deposit.
+    </p>
+    <p>
+      We had been living in Bali for 11 months and moved between several places. Minor issues happened everywhere — that's normal. But in every previous place, managers or owners solved problems quickly: you send a message, they reply, the issue gets fixed. Here, it was completely different. The main problem is not the building itself — it is the completely useless management. You pay your money and are left totally helpless: there is no one on the property you can talk to in person. The only way to communicate is a WhatsApp group chat with five staff members who systematically ignore messages, reply with copy-paste apologies, and do nothing to fix anything.
+    </p>
+    <p>
+      When we asked for a refund and to move out — we were ignored. When we demanded the contact details of someone in charge — we were ignored. The deposit was returned late and only after we threatened to publish reviews. Below is a detailed, fact-based report.
+    </p>
+  </section>
+
+  <!-- ===== 2. TIMELINE OF EVENTS ===== -->
+  <section>
+    <div class="section-number">02</div>
+    <h2>Timeline of events</h2>
+
+    <p>
+      Every problem dragged on for days and weeks. We received endless apologies, but nothing was actually done. Below is a timeline of our interactions with the management team, which included 5 people: Intan, Nia, Celine, Aprille, Niel.
+    </p>
+
+    <div class="timeline">
+
+      <div class="timeline-item timeline-problem">
+        <div class="timeline-date">January 18 (Day 2)</div>
+        <div class="problem-card">
+          <div class="tag">New issue</div>
+          <h4>No hot water and very low water pressure in the shower</h4>
+          <p>
+            From the very first day, the shower only ran for about 2 minutes before water pressure dropped to almost nothing and hot water stopped completely. It was impossible to take a normal shower. We reported this in the chat. Response: "we'll inform the technician."
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">January 19 (Day 3)</div>
+        <p><strong>A technician came and said "there is no problem."</strong> Water pressure is "normal," they checked — "everything works." In reality, nothing changed.</p>
+      </div>
+
+      <div class="timeline-item timeline-problem">
+        <div class="timeline-date">January 22 (Day 6)</div>
+        <p><strong>We sent a video of the shower problem again.</strong> We were simply ignored.</p>
+        <div class="problem-card">
+          <div class="tag">New issue</div>
+          <h4>Terrible cleaning quality</h4>
+          <p>
+            After cleaning, the apartment had a strong musty smell because the cleaner used old dirty rags. Management claimed the smell was coming from our belongings. The cleaner came, but did almost nothing: construction debris behind the bathroom door had been there since the apartment was built and stayed there for the entire month. Bed sheets were changed only once during the whole month — and only after we personally asked.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-problem">
+        <div class="timeline-date">January 23 (Day 7)</div>
+        <div class="problem-card">
+          <div class="tag">New issue</div>
+          <h4>Water shut off without warning</h4>
+          <p>
+            Water was turned off for several hours. We were not warned in advance. Later they told us it was "scheduled maintenance."
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-problem">
+        <div class="timeline-date">January 24 (Day 8)</div>
+        <div class="problem-card">
+          <div class="tag">New issue</div>
+          <h4>Ceiling leak in the bathroom with a strong urine smell</h4>
+          <p>
+            Water started dripping from the bathroom ceiling. It had a strong urine smell. The leak was dripping directly onto the toilet and the floor, making the bathroom almost impossible to use. Water was also dripping near electrical wiring, creating a risk of electric shock.
+          </p>
+        </div>
+        <div class="problem-card">
+          <div class="tag">New issue</div>
+          <h4>No internet</h4>
+          <p>
+            The internet stopped working. We reported it immediately with a photo of the router. For remote workers, this is critical.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">January 25 (Day 9)</div>
+        <p><strong>We sent a long message listing all unresolved problems and tagged all 5 group members.</strong> Celine replied with a copy-paste apology.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">January 26–27 (Days 10–11)</div>
+        <p><strong>Internet has been down for 3 days.</strong> We ask them to call the provider. The provider schedules a repair for Thursday (January 29). A water pump issue is also discovered.</p>
+      </div>
+
+      <div class="timeline-item timeline-problem">
+        <div class="timeline-date">January 30 (Day 14)</div>
+        <p><strong>The internet technician finally arrives</strong> — after 6+ days with no internet.</p>
+        <div class="problem-card">
+          <div class="tag">New issue</div>
+          <h4>Plaster falling from the ceiling</h4>
+          <p>
+            A worker patched the ceiling — the patch fell off within a few hours. Heavy pieces of plaster were falling right on top of us. When we asked them to urgently send the workers back, they said "their schedule is full" and they would come tomorrow. Plaster is falling on your head, and management thinks it can wait.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">January 31 (Day 15)</div>
+        <p><strong>The workers never came back.</strong> We write: "Why didn't they come? We can't use the toilet properly — water with a urine smell is dripping from the ceiling." Response: "We apologize, hopefully tomorrow."</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">February 1 (Day 16)</div>
+        <p><strong>The ceiling is swollen with water, puddle on the floor.</strong> Workers come — and leave without doing anything.</p>
+      </div>
+
+      <div class="timeline-item resolved">
+        <div class="timeline-date">February 2 (Day 17)</div>
+        <p><strong>We ask for a refund and to move out for the first time:</strong> "We want to move out. Please return our money and we will relocate to another place. Living here is unbearable." <strong>The refund request was completely ignored.</strong> Workers come and say they need 2 more days for repairs.</p>
+      </div>
+
+      <div class="timeline-item resolved">
+        <div class="timeline-date">February 3 (Day 18)</div>
+        <p><strong>We tag and ping all 5 staff members multiple times.</strong> We try calling — no one picks up. We calculate the refund amount: 12,800,000 IDR and send it to the chat. <strong>Our refund request is again completely ignored.</strong></p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">February 4 (Day 19)</div>
+        <p><strong>Intan responds for the first time in 3 days</strong> (says she was in the hospital). She explains it is a "structural issue from the original developer." <strong>The refund question is completely ignored</strong> — not a single word about our request to move out and get our money back.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">February 5–6 (Days 20–21)</div>
+        <p><strong>The temporary fix doesn't work.</strong> The leak continues. We ask for the contact details of someone who can actually resolve this — we are ignored again. From February 6 on, no one responds to our messages at all.</p>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">February 6 — February 16</div>
+        <p><strong>10 days of complete silence</strong> from the management team. The leak was eventually fixed about 5 days before our checkout, but our refund request was never addressed.</p>
+      </div>
+
+    </div>
+
+    <h3>Deposit return: a separate story</h3>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">February 16</div>
+        <p>We notify them we are checking out tomorrow. They tell us the deposit will be returned within 14 business days (not on checkout day, as is normally expected).</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">February 17</div>
+        <p>We check out. We provide our BNI bank details. They promise to return the deposit within 10–14 business days.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">March 1 (12 days later)</div>
+        <p><strong>No money received.</strong> We message them — silence.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">March 2 (13 days later)</div>
+        <p>Intan replies: "Apologies for the delay, let me follow up to our finance."</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">March 7 (18 days later)</div>
+        <p><strong>Still no money.</strong> We write again — both in the private chat and in the group.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">March 8 (19 days later)</div>
+        <p>We warn them: if the deposit is not returned, we will publish reviews on all platforms.</p>
+      </div>
+      <div class="timeline-item resolved">
+        <div class="timeline-date">March 10 (21 days later)</div>
+        <p><strong>The deposit is finally returned</strong> — only after we threatened to publish reviews. Instead of the promised 10–14 days, it took 21 days.</p>
+      </div>
+    </div>
+
+    <h3>Not just us: our neighbors from the Netherlands</h3>
+
+    <p>
+      Our upstairs neighbors — a couple from the Netherlands — had the same problems: water leaks, dirty rooms, and other issues that management refused to fix. They came to our apartment two or three times to talk about it — we were surprised how similar our experiences were.
+    </p>
+    <p>
+      They were the ones who warned us that they had found reviews from other tenants describing <strong>a pattern of unreturned deposits</strong> by this company. As it turned out later, our own experience confirmed this completely.
+    </p>
+    <p>
+      One day, during a work call, I could hear our neighbor walking around the courtyard, calling the manager on the phone, trying to get any kind of response about his problems. He was being ignored — just like us. He was on the verge of a breakdown. This clearly shows that our case is not unique: the system is set up in a way that leaves tenants completely alone with their problems, with no way to change anything.
+    </p>
+  </section>
+
+  <!-- ===== 3. SCREENSHOTS ===== -->
+  <section>
+    <div class="section-number">03</div>
+    <h2>Chat screenshots</h2>
+
+    <p>Below are screenshots of key moments from our conversations, showing how our requests were systematically ignored.</p>
+
+    <div class="media-grid">
+      <div class="media-item">
+        <img src="files/screenshots/01-first-complaints-water.png" alt="First water complaints Jan 18–19" loading="lazy">
+        <div class="media-caption">Jan 18–19. First complaints about low water pressure. Technician came and said: "no problem."</div>
+      </div>
+      <div class="media-item">
+        <img src="files/screenshots/02-ceiling-leak-report.png" alt="Ceiling leak report Jan 24" loading="lazy">
+        <div class="media-caption">Jan 24. Photo of ceiling leak sent to the chat. Nia: "we'll inform the technician."</div>
+      </div>
+      <div class="media-item">
+        <img src="files/screenshots/03-move-out-request.png" alt="Move-out and refund request Feb 2–3" loading="lazy">
+        <div class="media-caption">Feb 2–3. Request to move out and get a refund. Aprille responds with copy-paste apologies.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/screenshots/04-refund-calculation.png" alt="Refund calculation 7,800,000 IDR" loading="lazy">
+        <div class="media-caption">Feb 3. "WE WANT MOVE OUT." Refund calculation: 7,800,000 IDR. Request completely ignored.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/screenshots/05-absolute-ignoring.png" alt="Absolute ignoring of refund request" loading="lazy">
+        <div class="media-caption">Feb 3–4. "Absolute ignoring" — refund request ignored. Aprille: "we're still discussing."</div>
+      </div>
+      <div class="media-item">
+        <img src="files/screenshots/06-no-answer-all-day.png" alt="No answer all day, multiple pings" loading="lazy">
+        <div class="media-caption">Feb 5–6. Multiple "I'm waiting" messages tagging all 5 staff members. No response all day.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/screenshots/07-deposit-return-threat.png" alt="Deposit return demand after checkout" loading="lazy">
+        <div class="media-caption">March. Demand to return deposit with threat of publishing reviews. Intan: "Apologies for the delay."</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 4. PHOTOS ===== -->
+  <section>
+    <div class="section-number">04</div>
+    <h2>Photos and videos of the damage</h2>
+
+    <p>Photos and videos documenting the condition of the apartment.</p>
+
+    <div class="media-grid">
+      <div class="media-item">
+        <img src="files/00000247-PHOTO-2026-01-24-16-46-22.jpg" alt="Water dripping near ceiling light fixture" loading="lazy">
+        <div class="media-caption">Jan 24. Water dripping next to an electrical light fixture on the bathroom ceiling.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/00000248-PHOTO-2026-01-24-16-46-22.jpg" alt="Water drops on toilet from ceiling leak" loading="lazy">
+        <div class="media-caption">Jan 24. Water drops on the toilet lid — the ceiling leak dripping directly onto the fixture.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/00000238-PHOTO-2026-01-24-09-40-14.jpg" alt="Speedtest showing 0.20 Mbps download" loading="lazy">
+        <div class="media-caption">Jan 24. Speedtest: download speed 0.20 Mbps. Internet is essentially unusable.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/00000290-PHOTO-2026-01-30-13-15-22.jpg" alt="Chunks of plaster on the bathroom floor" loading="lazy">
+        <div class="media-caption">Jan 30. Chunks of plaster on the floor — the patch fell off just hours after the repair.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/00000291-PHOTO-2026-01-30-13-15-23.jpg" alt="Hole in bathroom ceiling after plaster collapse" loading="lazy">
+        <div class="media-caption">Jan 30. Hole in the bathroom ceiling — plaster collapsed, exposed pipes and wiring visible.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/00000312-PHOTO-2026-02-01-11-56-22.jpg" alt="Wet bathroom floor from ongoing leak" loading="lazy">
+        <div class="media-caption">Feb 1. Water on the bathroom floor from the ongoing ceiling leak.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/00000338-PHOTO-2026-02-03-08-49-47.jpg" alt="Flooded floor around the toilet" loading="lazy">
+        <div class="media-caption">Feb 3. Puddle around the toilet — the leak was still not fixed after multiple worker visits.</div>
+      </div>
+      <div class="media-item">
+        <img src="files/00000339-PHOTO-2026-02-03-08-49-48.jpg" alt="Larger hole in ceiling with exposed pipes" loading="lazy">
+        <div class="media-caption">Feb 3. The hole in the ceiling has gotten even bigger. Rusty pipes and electrical cables are visible.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 5. SUMMARY TABLE ===== -->
+  <section>
+    <div class="section-number">05</div>
+    <h2>Summary of issues</h2>
+
+    <table class="summary-table">
+      <thead>
+        <tr>
+          <th>Issue</th>
+          <th>Duration</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ceiling leak with urine smell</td>
+          <td>~19 days</td>
+          <td class="status-bad">Fixed 5 days before checkout</td>
+        </tr>
+        <tr>
+          <td>No hot water / low pressure</td>
+          <td>~1.5–2 weeks</td>
+          <td class="status-warn">Fixed after repeated complaints</td>
+        </tr>
+        <tr>
+          <td>No internet</td>
+          <td>6+ days</td>
+          <td class="status-warn">Fixed after repeated requests</td>
+        </tr>
+        <tr>
+          <td>Plaster falling from ceiling</td>
+          <td>Several days</td>
+          <td class="status-warn">Temporary patch only</td>
+        </tr>
+        <tr>
+          <td>Water shut off without warning</td>
+          <td>Several hours</td>
+          <td class="status-warn">One-time incident</td>
+        </tr>
+        <tr>
+          <td>Refund and move-out request</td>
+          <td>—</td>
+          <td class="status-bad">Completely ignored</td>
+        </tr>
+        <tr>
+          <td>Deposit return</td>
+          <td>21 days instead of 14</td>
+          <td class="status-warn">Returned only after threats</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ===== 6. CONCLUSION ===== -->
+  <section>
+    <div class="section-number">06</div>
+    <h2>Conclusion</h2>
+
+    <p class="lead">
+      The main problem with Suite Stay is not the building itself — it's that once you pay, you are completely on your own.
+    </p>
+
+    <p>
+      There is no one from the management company on-site. You cannot walk up to someone, explain your problem, or demand a solution in person. The only way to reach them is a WhatsApp group chat where five staff members take turns writing "sorry for the inconvenience" and do absolutely nothing. You can be ignored for hours and days. You write — silence. You call — no one picks up.
+    </p>
+    <p>
+      During our one month stay, we dealt with a ceiling leak that took 19 days to fix; a shower with no proper water pressure; 6 days with no internet; and plaster falling on our heads. When we asked for a refund and to move out — our request was <strong>simply ignored</strong>. We had to stay until the end of the lease in unbearable conditions.
+    </p>
+    <p>
+      After checkout, they promised to return the deposit within 10–14 business days. In reality, it took 21 days, and the deposit was returned <strong>only after we threatened to publish reviews</strong>. Our neighbors had warned us that they found reviews from other tenants describing a pattern of unreturned deposits by this company.
+    </p>
+    <div class="verdict">
+      <h3>Avoid Suite Stay and Melasti Reef Apartment at all costs</h3>
+      <p>
+        We genuinely love Bali — we have been living here for nine months — so we say this objectively: the island is beautiful, but this place is the exact opposite. If we had come here as regular tourists, we would have never wanted to return to Bali. Our goal is not just to leave a review, but to warn future travelers so they don't make the same mistake.
+      </p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="container">
+    All facts in this review are supported by WhatsApp conversations and photographs.
+  </div>
+</footer>
+
+</body>
+</html>
